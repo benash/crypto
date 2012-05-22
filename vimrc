@@ -16,6 +16,7 @@ Bundle 'The-NERD-tree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'Command-T'
+Bundle 'ruby.vim'
 Bundle 'corntrace/bufexplorer'
 
 filetype plugin indent on
