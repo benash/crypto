@@ -11,6 +11,8 @@ Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-repeat'
 Bundle 'mileszs/ack.vim'
 Bundle 'The-NERD-tree'
 Bundle 'scrooloose/nerdcommenter'
@@ -18,6 +20,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'Command-T'
 Bundle 'ruby.vim'
 Bundle 'corntrace/bufexplorer'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 filetype plugin indent on
 
@@ -114,3 +117,7 @@ colorscheme solarized
 let mapleader=','
 set columns=85
 set cc=80
+map <C-N> :NERDTreeToggle<CR>
+map <Leader>x :bn<CR>
+map <Leader>z :bp<CR>
+map + :set invwrap<CR>
