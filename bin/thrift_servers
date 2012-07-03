@@ -1,0 +1,3 @@
+#!/bin/zsh
+grep '^role :thrift' $HOME/code/aggregation/config/deploy/production.rb | sed 's/role :thrift,[[:space:]]*"\(.*\)".*/\1/'
+
