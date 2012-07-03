@@ -1,0 +1,12 @@
+map J 5j
+map K 5k
+map <Tab> <C-Tab>
+map <S-Tab> <S-C-Tab>
+map l <C-Tab>
+map h <S-C-Tab>
+map T <S-M-t>
+map w d
+
+set ds=duckduckgo
+
+autocmd LocationChange .* js modes.passAllKeys = /duckduckgo\.com/.test(buffer.URL)
