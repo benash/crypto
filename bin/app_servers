@@ -1,3 +1,0 @@
-#!/bin/zsh
-grep --after-context 8 '^role :app' $HOME/code/outright/config/deploy/production.rb | tail -n +2 | sed 's/[[:space:]]*"\(.*\)".*/\1/'
-
