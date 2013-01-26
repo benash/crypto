@@ -120,4 +120,5 @@ set cc=80
 map <C-N> :NERDTreeToggle<CR>
 map <Leader>x :bn<CR>
 map <Leader>z :bp<CR>
+map <Leader>d :bd<CR>
 map + :set invwrap<CR>
